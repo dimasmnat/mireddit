@@ -23,21 +23,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "node_modules/semantic-ui-css/semantic.min.css"
+              "src/styles.css"
             ],
-            "scripts": [
-              "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/semantic-ui-css/semantic.min.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "2MB",
+                  "maximumError": "5MB"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -94,15 +90,21 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/semantic-ui-css/semantic.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/semantic-ui-css/semantic.min.js"
+            ]
+           
           }
         }
       }
     }
   },
   "cli": {
-    "analytics": "40c9b45d-e0dc-4d6e-b959-e292f434243f"
+    "analytics": "d0ce90c0-ca70-4a0d-8b02-dfa3c0a9dce7"
   }
+  
 }
